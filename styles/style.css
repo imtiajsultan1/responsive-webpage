@@ -1,45 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter-font {
+/* .inter-font1 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: normal; */
+    font-weight: normal;
     font-style: normal;
-}
+} */
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.color-1 {
+    color: #E6533C;
+}
+.color-2{
+    color: white;
 }
 
 body{
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-.bar{
+.background-grad-color {
+    background: linear-gradient(to bottom, black, #777777);
+    /* background-color: black; */
+}
+
+/* top navigation bar  */
+
+nav{
     display: flex;
     justify-content: space-between;
-    padding-right: 190px;
-    padding-left: 190px;
-    padding-top: 50px;
     align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
 }
-.web-name{
+
+nav p{
+    font-weight: 800;
     font-size: 36px;
+    font-style: italic;
 }
-.manue{
+nav > div ul{
     display: flex;
-    border: 1px solid ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     gap: 50px;
+    padding: 2px 8px 2px 4px;
     
 }
 
-.web-manue li{
+nav li{
     list-style-type: none;
     
 }
 
-.web-manue li a{
+nav a{
     text-decoration: none;
+    color: white;
+}
+/* icon of hamburger menu logo  */
+nav ul img{
+    display: none;
+}
+
+/* home button for behind color */
+nav ul li button{
+    background-color: #E6533C;
+    padding: 12px 20px 12px 20px;
+    border-radius: 46px;
+    border: none;
+}
+
+/* first page  */
+
+.home-page{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    justify-content: space-between;
+    gap: 40%;
+}
+.home-page h1{
+    color: white;
+    font-size: 78px;
+}
+
+@media screen and (max-width: 576px){
+
+    /* navigation bar  */
+
+    nav > div ul{
+        border: none;
+    }
+    nav{
+        display: flex;
+        padding: 5% 5% 5% 5%;
+    }
+
+    nav ul li{
+        display: none;
+    }
+    nav ul img{
+        display:inline;
+        width: 30px;
+    }
 }
