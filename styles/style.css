@@ -218,7 +218,7 @@ nav ul li button{
 
 .main-div-1{
     text-align: center;
-    width: 620px;
+    max-width: 620px;
 }
 .main-div-1 h1 {
     color: white;
@@ -308,5 +308,17 @@ nav ul li button{
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-   
+
+    /* 4 circle picture page */
+    .four-img{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .main-div-2{
+        flex-direction: column;
+    }
+    .main-div-1 h1{
+        font-size: 32px;
+    }
+    
 }
