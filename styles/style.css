@@ -98,7 +98,7 @@ nav ul li button{
     padding-right: 9%; 
     padding-top: 5%;
     justify-content: space-between;
-    gap: 30%;
+    gap: 25%;
 }
 
 .home-page h1{
@@ -253,6 +253,45 @@ nav ul li button{
     border: 6px solid rgba(255, 255, 255, 0.1);
 }
 
+/* running man page  */
+.run-container{
+    background-color: black;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 100px;
+}
+
+.run-container img{
+    max-width: 366px;
+    border-radius: 18px;
+}
+.run-box{
+    display: flex;
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 18px;
+    gap: 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-box-content h1{
+    font-size: 48px;
+    padding-bottom: 14px;
+    color: white;
+}
+.run-box-content button{
+    background-color: #E6533C;
+    color: white;
+    font-size: 18px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+}
+.run-box-content p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 34px;
+}
 @media screen and (max-width: 576px){
 
     /* navigation bar  */
@@ -320,5 +359,22 @@ nav ul li button{
     .main-div-1 h1{
         font-size: 32px;
     }
+
+    /* running segment */
+
+    .run-box-content{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .run-box{
+        flex-direction: column;
+        gap: 31px;
+        padding: 33px;
+    }
+    .run-box button{
+        width: 100%;
+    }
+    
+
     
 }
