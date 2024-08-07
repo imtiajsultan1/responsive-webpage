@@ -292,6 +292,218 @@ nav ul li button{
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 34px;
 }
+
+
+
+.exercise{
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+.exercise h1{
+    font-size: 48px;
+    color: white;
+    padding-bottom: 14px;
+}
+.exercise p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.exercise-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    /* height: 200px; */
+}
+.exercise-img-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    /* height: 200px; */
+}
+.e-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+.span-3{
+    grid-column: span 3;
+}
+.span-2{
+    grid-column: span 2;
+}
+
+.after-grid{
+    padding: 88px 385px 88px 385px;
+    background-color: black;
+}
+.after-grid h1{
+    color: white;
+    font-size: 48px;
+    padding-bottom: 14px;
+}
+.after-grid p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 8%;
+    justify-content: space-between;
+    /* max-width: 380px; */
+}
+.table-1{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;/*to make table cell border only one single line*/
+    height: 220px;
+    width: 310px;
+    text-align: left;
+}
+.table-1 td,th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 155px;
+}
+#table-h1{
+    padding-bottom: 52px;
+}
+.form-holder{
+    display: flex;
+}
+#activity{
+    display: block;
+    /* width: 200%; */
+    width: 565px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.form-container h3{
+    font-size: 28px;
+    padding-bottom: 14px;
+}
+.form-container p{
+    padding-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.table-item{
+    width: 280px;
+    border-radius: 8px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#btn-calculate{
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    margin-top: 35px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.our-team{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 88px;
+}
+.our-team h1{
+    padding-bottom: 14px;
+    font-size: 48px;
+}
+.our-team p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 58px;
+}
+
+.img-container{
+    background-color: #222222;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.img-container img{
+    width: 350px;
+    height: 272px;
+    border-radius: 18px;
+}
+/* footer */
+
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #222222;
+    color: white;
+    padding-top: 66px;
+}
+.footer-part{
+    display: flex;
+    gap: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+#logo-bottom{
+    max-width: 444px;
+}
+.footer-part h1{
+    font-size: 70px;
+    color: #E6533C;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.footer-part p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.footer-part h3{
+    font-size: 32px;
+    padding-bottom: 39px;
+}
+.footer-part a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+#last{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 36px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
 @media screen and (max-width: 576px){
 
     /* navigation bar  */
