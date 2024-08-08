@@ -374,23 +374,15 @@ nav ul li button{
     padding: 10px;
     width: 155px;
 }
-#table-h1{
+#table-h3{
     padding-bottom: 52px;
+    font-size: 28px;
 }
 .form-holder{
     display: flex;
+    padding-bottom: 52px;
 }
-#activity{
-    display: block;
-    /* width: 200%; */
-    width: 565px;
-    background-color: rgba(255, 255, 255, 0.1);
-    height: 50px;
-    border-radius: 8px;
-    border: none;
-    margin-top: 5px;
-    padding-left: 10px;
-}
+
 .form-container{
     display: flex;
     flex-direction: column;
@@ -403,6 +395,17 @@ nav ul li button{
 .form-container p{
     padding-bottom: 34px;
     color: rgba(255, 255, 255, 0.5);
+}
+#activity{
+    display: block;
+    /* width: 200%; */
+    width: 565px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    padding-left:10px;
 }
 .table-item{
     width: 280px;
@@ -458,6 +461,7 @@ nav ul li button{
     width: 350px;
     height: 272px;
     border-radius: 18px;
+    object-fit: cover;
 }
 /* footer */
 
@@ -587,6 +591,45 @@ footer{
         width: 100%;
     }
     
+    /* exercise section */
+    .null{
+        display: none;
+    }
+    .exercise{
+        justify-content: center;
+        object-fit: cover;
+    }
+    .e-img{
+        
+        grid-column: span 2;
+        border: 1px solid white;
+    }
+    .span-2{
+        grid-column: span 2;
+    }
 
+    /* BMI calculator */
+    .after-grid{
+        padding: 10%;
+    }
+
+    .form{
+        flex-direction: column;
+    }
+    .form-container{
+        padding-top: 5%;
+    }
+    .table-item{
+        max-width: 180px;
+    }
+    #activity{
+        width: 375px;
+    }
+    .img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-part{
+        flex-direction: column;
+    }
     
 }
